@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,700,300,600,400);
+@import url(http://fonts.googleapis.com/css?family=Varela);
+
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	height: 100%;
+
+}
+
+div.container {
+	max-width: 960px;
+	margin: 30 auto 0 auto;
+	height: 80%;
+}
+
+section {
+	padding: 40px;
+}
+
+#banner {
+	background-color: #EDEDED;
+	padding-top: 180px;
+	height: 100%;
+	background-image: url(../images/fans.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#banner img {
+	padding: 60px 0;
+}
+
+section.orange {
+	border-top: 10px solid #BF7C2D;
+	background-color: #EA9737;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+section.blue {
+	border-top: solid 10px #417E98;
+	background-color: #6FA5D9;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.red {
+	border-top: solid 10px #AC0E16;
+	background-color: #D2111B;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.dark-blue {
+	border-top: solid 10px #103B7D;
+	background-color: #134899;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.phones {
+	text-align: center;
+}
+
+header {
+	background-color: #E03035;
+	height: 85px;
+	width: 100%;
+	border-bottom: 10px solid #AB2423;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+h1 {
+	float: left;
+	padding: 15px 10px 0px 0px;
+}
+h4, h5 {
+	float: right;
+	line-height: 75px;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+	color: #fff;
+}
+h4 a, h5 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h4 a:hover, h5 a:hover, h6 a:hover {
+	color: #FCD0D9;
+}
+
+h5 {
+	word-spacing: 20px;
+}
+
+
+nav img {
+	float: right;
+	padding: 20px 0px 15px 15px;
+}
+
+h2 {
+	color: #E03035;
+	font-size: 37px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	padding: 30px 0px 0px 0px;
+
+}
+
+.phones img {
+	max-width: 250px;
+}
+
+footer {
+	background-color: #fff;
+	text-align: center;
+}
+
+h6 {
+	text-transform: uppercase;
+	 color: #E03035;
+	 letter-spacing: 0.75px;
+	 word-spacing: 20px;
+	 margin: 20px 0;
+}
+
+h6 a {
+	color: #E03035;
+	text-decoration: none;
+}
