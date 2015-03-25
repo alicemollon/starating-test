@@ -12,7 +12,7 @@ html, body {
 div.container {
 	max-width: 960px;
 	margin: 30 auto 0 auto;
-	height: 80%;
+	height: 100%;
 }
 
 section {
@@ -33,10 +33,12 @@ section {
 }
 
 section.orange {
+	padding-top: 60px;
 	border-top: 10px solid #BF7C2D;
 	background-color: #EA9737;
 	background-size: cover;
 	background-attachment: fixed; 
+	height: 100%;
 }
 
 section.blue {
@@ -61,7 +63,7 @@ section.dark-blue {
 }
 
 .phones {
-	text-align: center;
+	text-align: right;
 }
 
 header {
@@ -69,7 +71,7 @@ header {
 	height: 85px;
 	width: 100%;
 	border-bottom: 10px solid #AB2423;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0;
 	z-index: 1;
 }
@@ -98,6 +100,11 @@ h5 {
 	word-spacing: 20px;
 }
 
+p {
+	color: #fff;
+	margin: 30px auto auto auto;
+	line-height: 2;
+}
 
 nav img {
 	float: right;
